@@ -5,7 +5,7 @@
 | 문서 | 주제 | 작성일 |
 |---|---|---|
 | [docs/pulse-heating-battery-report.md](docs/pulse-heating-battery-report.md) | 리튬이온전지 펄스 히팅(Pulse Heating) 기술 조사·분석 보고서 | 2026-09-14 |
-| [docs/self-pulse-heating-lib-assb-report.md](docs/self-pulse-heating-lib-assb-report.md) | 리튬이온전지·전고체전지 공통 적용 자가 펄스 히팅 기술 보고서 | 2026-09-17 |
+| [docs/self-pulse-heating-lib-assb-report.md](docs/self-pulse-heating-lib-assb-report.md) · [PDF](docs/self-pulse-heating-lib-assb-report.pdf) | 리튬이온전지·전고체전지 공통 적용 자가 펄스 히팅 기술 보고서 | 2026-09-17 |
 
 ---
 
