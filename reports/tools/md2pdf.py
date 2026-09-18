@@ -13,7 +13,7 @@ Chromium 인쇄 엔진(Playwright)으로 렌더링하며, 표지·목차·머리
     ---
 
 사용법
-    python3 tools/md2pdf.py docs/report.md [out.pdf] [--note "표지 하단 문구"]
+    python3 reports/tools/md2pdf.py reports/docs/report.md [out.pdf] [--note "표지 하단 문구"]
 
 의존성
     pip install markdown playwright

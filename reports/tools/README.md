@@ -2,22 +2,22 @@
 
 ## md2pdf.py — 마크다운 보고서를 한글 PDF로
 
-`docs/` 의 기술보고서를 A4 PDF로 변환한다. Chromium 인쇄 엔진(Playwright)으로
+`reports/docs/` 의 기술보고서를 A4 PDF로 변환한다. Chromium 인쇄 엔진(Playwright)으로
 렌더링하며 표지·2단 목차·머리말/꼬리말을 자동 구성한다.
 
 ### 사용법
 
 ```bash
-python3 tools/md2pdf.py docs/report.md                 # docs/report.pdf 생성
-python3 tools/md2pdf.py docs/report.md out.pdf         # 출력 경로 지정
-python3 tools/md2pdf.py docs/report.md --note "문구"   # 표지 하단 문구
-python3 tools/md2pdf.py docs/report.md --keep-html     # 중간 HTML 보존 (디버깅)
+python3 reports/tools/md2pdf.py reports/docs/report.md                 # reports/docs/report.pdf 생성
+python3 reports/tools/md2pdf.py reports/docs/report.md out.pdf         # 출력 경로 지정
+python3 reports/tools/md2pdf.py reports/docs/report.md --note "문구"   # 표지 하단 문구
+python3 reports/tools/md2pdf.py reports/docs/report.md --keep-html     # 중간 HTML 보존 (디버깅)
 ```
 
 실제 산출물 재생성 예:
 
 ```bash
-python3 tools/md2pdf.py docs/self-pulse-heating-lib-assb-report.md \
+python3 reports/tools/md2pdf.py reports/docs/self-pulse-heating-lib-assb-report.md \
   --note "본 문서의 정량 데이터는 2026년 9월 기준 공개 문헌 및 제조사 발표자료에 근거한다."
 ```
 
@@ -78,7 +78,7 @@ Noto Sans KR을 받을 때는 Google Fonts v1 API에 **구형 User-Agent**와
 pip install pypdfium2 pillow
 python3 -c "
 import pypdfium2 as pdfium
-pdf = pdfium.PdfDocument('docs/report.pdf')
+pdf = pdfium.PdfDocument('reports/docs/report.pdf')
 print('페이지:', len(pdf))
 pdf[0].render(scale=2).to_pil().save('/tmp/p1.png')"
 ```
