@@ -9,6 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 | 항목 | 내용 |
 |---|---|
 | `reports/` | 한국어 기술 조사 보고서와 PDF 변환 도구 |
+| `presentations/` | HTML 기반 PPT 생성 (콘텐츠 분석, 구조 설계, 자동 슬라이드 생성) |
 | `_template/` | 새 항목을 만들 때 복사하는 뼈대. 항목이 아니다. |
 
 각 항목 폴더에는 그 항목의 `CLAUDE.md` 와 `README.md` 가 있다. **항목 안에서 작업할 때는 그 항목의 `CLAUDE.md` 가 실제 규약이다** — Claude Code가 해당 폴더의 파일을 다룰 때 자동으로 읽는다. 이 루트 파일은 저장소 전체에 걸친 규칙만 담는다.
