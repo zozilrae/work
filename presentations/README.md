@@ -7,6 +7,7 @@ HTML 콘텐츠를 자동으로 분석·구조화하여 PowerPoint 슬라이드�
 | 파일 | 설명 | 갱신일 |
 |---|---|---|
 | `presentations/tools/html2ppt.py` | HTML → PPT 변환 엔진 (콘텐츠 분석, 구조 설계, 생성) | 2026-09-18 |
+| [ai-agents-lecture.pptx](output/ai-agents-lecture.pptx) | AI 에이전트 강의 자료 (10장) | 2026-09-18 |
 | `presentations/output/` | 생성된 `.pptx` 파일 모음 | — |
 
 ## 사용법
